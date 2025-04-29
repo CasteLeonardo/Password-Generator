@@ -1,0 +1,49 @@
+<html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+        <title>Password generator</title>
+    </head>
+    <body>
+        <div class="container">
+            <!-- Main Heading -->
+             <h1>
+                <span class="color1">Generate a<br></span>
+                <span class="color2">random password 🔒<span>
+                    
+             </h1>
+             
+             <!-- Subheading -->
+            <h3>Never use an insecure password again</h3>
+            
+            <!-- Password Length Control -->
+            <div class="control">
+                <label>
+                    Password Lenght:
+                    <input type="number" id="length-input" min="6" max="15" value="8"
+                </label>
+            </div>
+            
+            <!-- Generate Password Button -->
+            <button id="password-btn">Generate password</button>
+            
+            <!-- Generated Passwords Display -->
+            <div class="passwords-containers">
+                <p id="password-display-1" class="password-box"></p>
+                <p id="password-display-2" class="password-box"></p>
+            </div>
+            
+            <!-- Copy Feedback Message -->
+            <div id="copy-message" class="copy-message"></div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
+
+
+
+
+
